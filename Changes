@@ -9,3 +9,6 @@ Revision history for Perl module WebService::TWFY::API
 0.03 Sat Dec 27th 2008
     - the TWFY API now requires a key, thanks davorg!
 
+0.04 Mon Nov 8th 2010
+	- Fixed the PREREQ_PM in the Makefile which was causing smokers grief and was incorrect.
+
