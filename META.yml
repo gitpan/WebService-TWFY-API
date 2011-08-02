@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               WebService-TWFY-API
-version:            0.04
+version:            0.05
 abstract:           API interface for TheyWorkForYou.com
 author:
     - Spiros Denaxas (s [dot] denaxas [@] gmail [dot]com)
@@ -11,12 +11,8 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    HTTP::Request:    0
-    HTTP::Response:   0
-    LWP::UserAgent:   0
-    Test::Exception:  0
-    Test::More:       0
-    URI:              0
+    Test::Exception:  0.24
+    Test::Simple:     0.44
 no_index:
     directory:
         - t

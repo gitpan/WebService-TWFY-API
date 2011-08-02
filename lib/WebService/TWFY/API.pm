@@ -9,7 +9,7 @@ use WebService::TWFY::Response ;
 use LWP::UserAgent ;
 
 our @ISA = qw( LWP::UserAgent ) ;
-our $VERSION = 0.04 ;
+our $VERSION = 0.05 ;
 
 =head1 NAME
 
@@ -17,7 +17,7 @@ WebService::TWFY::API - API interface for TheyWorkForYou.com
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 =cut
 
@@ -121,16 +121,18 @@ Please feel free to send any bug reports and suggestions to my email listed belo
 
 For more information and useless facts on my life, you can also check my blog:
 
-  http://idaru.blogspot.com/
-
+  http://ffffruit.com/
 
 =head1 AUTHOR
 
     Spiros Denaxas
     CPAN ID: SDEN
-    Lokku Ltd
     s [dot] denaxas [@] gmail [dot]com
-    http://idaru.blogspot.com
+    http://ffffruit.com
+
+=head1 SOURCE CODE
+
+The source code for his module is now on github L<https://github.com/spiros/WebService-TWFY-API>
 
 =head1 COPYRIGHT
 

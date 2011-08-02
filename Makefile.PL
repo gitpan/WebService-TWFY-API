@@ -9,11 +9,7 @@ WriteMakefile(
     AUTHOR       => 'Spiros Denaxas (s [dot] denaxas [@] gmail [dot]com)',
     ABSTRACT     => 'API interface for TheyWorkForYou.com',
     PREREQ_PM    => {
-                     'Test::More'      => 0,
-                     'Test::Exception' => 0,
-                     'LWP::UserAgent'  => 0,
-                     'HTTP::Response'  => 0,
-                     'HTTP::Request'   => 0,
-                     'URI'             => 0                     
+                     'Test::Simple' => 0.44,
+                     'Test::Exception' => 0.24,
                     },
 );
