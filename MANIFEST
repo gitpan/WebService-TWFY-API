@@ -11,3 +11,4 @@ README
 t/001_load.t
 t/errors.t
 t/pod.t
+META.json                                Module JSON meta-data (added by MakeMaker)
