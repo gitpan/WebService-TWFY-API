@@ -18,7 +18,10 @@ no_index:
     - t
     - inc
 requires:
+  Carp: 0
   HTTP::Request: 0
+  LWP::UserAgent: 0
   Test::Exception: 0.24
   Test::Simple: 0.44
-version: 0.06
+  URI: 0
+version: 0.07
